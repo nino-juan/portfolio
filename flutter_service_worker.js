@@ -12,7 +12,7 @@ const RESOURCES = {
 "assets/assets/hex-gl.png": "fffe86df93978fe52958718966ad7141",
 "assets/assets/JN-logo.png": "ab1d74f9bca15ff01f5f9dba2f5e15cd",
 "assets/assets/JN-logo.svg": "ad24604a4aa1782125cafa23a1b30185",
-"assets/assets/Juan-Nino-CV.pdf": "2fbfd9a5019d400d72d5b1c8f6c49be2",
+"assets/assets/Juan-Nino-CV.pdf": "663040e75160c3551314cbe4ab913139",
 "assets/assets/linkedin-jn.svg": "cb7a3b93078dac88e808d1c004bd3e8a",
 "assets/assets/profile.png": "87bf38a2a5650a09e21dc293e98c12a1",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
@@ -28,9 +28,9 @@ const RESOURCES = {
 "icons/Icon-maskable-192.png": "80b0b96d845a5be7a88a73a1a79aa607",
 "icons/Icon-maskable-512.png": "caadeea964b30fe42d90a80a07d528cc",
 "icons/JN-192.png": "c9360ac08b6c33105d1ed38535badfca",
-"index.html": "0346b2d7c6d799e84aea8a74bcea9222",
-"/": "0346b2d7c6d799e84aea8a74bcea9222",
-"main.dart.js": "c52b1199ae568eb37f548343203b21fb",
+"index.html": "1648301730d27c735313a27f1c75e296",
+"/": "1648301730d27c735313a27f1c75e296",
+"main.dart.js": "44a706dd218702153c6e81f21f4f2d81",
 "manifest.json": "e1ff7e6b504497f45fe647c617b6db61",
 "version.json": "15592eee1dda78eca7eefd70ac0135a8"
 };
