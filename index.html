@@ -18,6 +18,16 @@
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
     <meta name="description" content="Portfolio for Juan Nino." />
+    <meta name="author" content="Juan Nino" />
+    <meta name="designer" content="Juan Nino" />
+    <meta property="og:title" content="Juan Nino's Portfolio" />
+    <meta property="og:description" content="Juan Nino's Portfolio." />
+    <!--  UNcomment here and add urls for og properties -->
+    <meta property="og:url" content="https://www.juannino.dev/" />
+    <meta
+      property="og:image"
+      content="https://www.juannino.dev/icons/Icon-192.png"
+    />
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,11 +42,72 @@
     <link rel="manifest" href="manifest.json" />
   </head>
   <body>
+    <!-- LOADING SPLASH SCREEN : https://itnext.io/fix-flutter-web-loading-time-with-a-loading-spinner-c5dd36a29f5b -->
+    <div class="loading">
+      <div class="loader"></div>
+      <img class="loadjn" src="/icons/JN-192.png" alt="JN logo text" />
+    </div>
+    <style>
+      .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+
+      .loader {
+        background-image: url(/icons/Hex-192.png);
+
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 5s linear infinite;
+        animation: spin 5s linear infinite;
+      }
+
+      .loadjn {
+        background: transparent;
+        background-image: url(/icons/JN-192.png);
+        background-position: center;
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 120px;
+        height: 120px;
+      }
+
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+
     <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
     <script>
-      var serviceWorkerVersion = '3965044354';
+      var serviceWorkerVersion = '1077486326';
       var scriptLoaded = false;
       function loadMainDartJs() {
         if (scriptLoaded) {
