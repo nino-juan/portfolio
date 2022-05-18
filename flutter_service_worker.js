@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "25a53d6e17886dcaea8490e3e9e2a70c",
+  "assets/AssetManifest.json": "1fcf6bf093b1b65c8d542d58b0e265d2",
 "assets/assets/Bees.svg": "ac70d4753cf3ed909867851e277213b2",
 "assets/assets/github-jn.svg": "5b8d2a98a88c95fdcdb96ad308a92876",
 "assets/assets/hex-b.png": "37b3473ac47964a8c482a34970ad0637",
@@ -12,6 +12,7 @@ const RESOURCES = {
 "assets/assets/hex-gl.png": "fffe86df93978fe52958718966ad7141",
 "assets/assets/JN-logo.png": "ab1d74f9bca15ff01f5f9dba2f5e15cd",
 "assets/assets/JN-logo.svg": "ad24604a4aa1782125cafa23a1b30185",
+"assets/assets/Juan-Nino-CV.pdf": "2fbfd9a5019d400d72d5b1c8f6c49be2",
 "assets/assets/linkedin-jn.svg": "cb7a3b93078dac88e808d1c004bd3e8a",
 "assets/assets/profile.png": "87bf38a2a5650a09e21dc293e98c12a1",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
@@ -30,9 +31,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "ce9e57548b1626cad2223c134fe0ad00",
 "icons/Icon-maskable-192.png": "80b0b96d845a5be7a88a73a1a79aa607",
 "icons/Icon-maskable-512.png": "caadeea964b30fe42d90a80a07d528cc",
-"index.html": "b0cb4eaa9cb3777c8d2c0a2530cede24",
-"/": "b0cb4eaa9cb3777c8d2c0a2530cede24",
-"main.dart.js": "a3fc729f85ea85e47abcba9dcefeae5b",
+"index.html": "b1b12d51b7d6a96297138c6acc398af1",
+"/": "b1b12d51b7d6a96297138c6acc398af1",
+"main.dart.js": "c52b1199ae568eb37f548343203b21fb",
 "manifest.json": "e1ff7e6b504497f45fe647c617b6db61",
 "version.json": "15592eee1dda78eca7eefd70ac0135a8"
 };
