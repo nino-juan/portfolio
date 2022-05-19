@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "1fcf6bf093b1b65c8d542d58b0e265d2",
+  "assets/AssetManifest.json": "db74cc5d0c12e9c3bc9a312a5e7c4e04",
 "assets/assets/Bees.svg": "ac70d4753cf3ed909867851e277213b2",
 "assets/assets/github-jn.svg": "5b8d2a98a88c95fdcdb96ad308a92876",
 "assets/assets/hex-b.png": "37b3473ac47964a8c482a34970ad0637",
@@ -14,6 +14,7 @@ const RESOURCES = {
 "assets/assets/JN-logo.svg": "ad24604a4aa1782125cafa23a1b30185",
 "assets/assets/Juan-Nino-CV.pdf": "c453f1425dc17bb60fb7c89061ef06f2",
 "assets/assets/linkedin-jn.svg": "cb7a3b93078dac88e808d1c004bd3e8a",
+"assets/assets/profile-sm.png": "3e8922cbe3b6bb877ddb3ae3a64020bd",
 "assets/assets/profile.png": "22fd0d4c436ddf150ffeadc679d340ca",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
@@ -28,9 +29,9 @@ const RESOURCES = {
 "icons/Icon-maskable-192.png": "80b0b96d845a5be7a88a73a1a79aa607",
 "icons/Icon-maskable-512.png": "caadeea964b30fe42d90a80a07d528cc",
 "icons/JN-192.png": "c9360ac08b6c33105d1ed38535badfca",
-"index.html": "0497d041921139a7e9afbaa2facd2fa3",
-"/": "0497d041921139a7e9afbaa2facd2fa3",
-"main.dart.js": "44a706dd218702153c6e81f21f4f2d81",
+"index.html": "d64f53aee92959720deff67465a148de",
+"/": "d64f53aee92959720deff67465a148de",
+"main.dart.js": "0097841400ac846101955c12f2bc843c",
 "manifest.json": "e1ff7e6b504497f45fe647c617b6db61",
 "version.json": "15592eee1dda78eca7eefd70ac0135a8"
 };
