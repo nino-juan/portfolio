@@ -3,7 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "db74cc5d0c12e9c3bc9a312a5e7c4e04",
+  "assets/AssetManifest.json": "c20a33a1d0e86d4a34876a68a30ed7a9",
+"assets/assets/babel-library.png": "d032fcd5961b6cf348e03b26b8ab4b6a",
 "assets/assets/Bees.svg": "ac70d4753cf3ed909867851e277213b2",
 "assets/assets/github-jn.svg": "5b8d2a98a88c95fdcdb96ad308a92876",
 "assets/assets/hex-b.png": "37b3473ac47964a8c482a34970ad0637",
@@ -13,9 +14,13 @@ const RESOURCES = {
 "assets/assets/JN-logo.png": "ab1d74f9bca15ff01f5f9dba2f5e15cd",
 "assets/assets/JN-logo.svg": "ad24604a4aa1782125cafa23a1b30185",
 "assets/assets/Juan-Nino-CV.pdf": "c453f1425dc17bb60fb7c89061ef06f2",
+"assets/assets/lab-vivant.png": "486c8844d2d08525787ab63fe51f49d5",
 "assets/assets/linkedin-jn.svg": "cb7a3b93078dac88e808d1c004bd3e8a",
+"assets/assets/magna-quest.png": "140d7cad4cd87bfdde752c4538eb65be",
+"assets/assets/participatory-opera.png": "a59f75977080506e8eb6f1a5d43d3f7e",
 "assets/assets/profile-sm.png": "3e8922cbe3b6bb877ddb3ae3a64020bd",
 "assets/assets/profile.png": "22fd0d4c436ddf150ffeadc679d340ca",
+"assets/assets/tactile-navigator.png": "17d2b9e00ae7ce64b9d1a3f78b65c2bf",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/NOTICES": "71819b5ad28b6cb19f64454390dc22e8",
@@ -29,9 +34,9 @@ const RESOURCES = {
 "icons/Icon-maskable-192.png": "80b0b96d845a5be7a88a73a1a79aa607",
 "icons/Icon-maskable-512.png": "caadeea964b30fe42d90a80a07d528cc",
 "icons/JN-192.png": "c9360ac08b6c33105d1ed38535badfca",
-"index.html": "d64f53aee92959720deff67465a148de",
-"/": "d64f53aee92959720deff67465a148de",
-"main.dart.js": "0097841400ac846101955c12f2bc843c",
+"index.html": "26aea4415393d5d6b7bce719ed03506d",
+"/": "26aea4415393d5d6b7bce719ed03506d",
+"main.dart.js": "8c3535725e713d79b9320268175cfe9c",
 "manifest.json": "e1ff7e6b504497f45fe647c617b6db61",
 "version.json": "15592eee1dda78eca7eefd70ac0135a8"
 };
