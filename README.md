@@ -1,5 +1,5 @@
 ![Logo](/assets/assets/JN-logo.png)  
-# Juan Nino's Portafolio
+# Juan Nino's Portfolio
 
 
 Hi there! I'm Juan Nino.  
