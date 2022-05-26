@@ -3,9 +3,15 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c20a33a1d0e86d4a34876a68a30ed7a9",
+  "assets/AssetManifest.json": "3082ba8344258a1457920fcddcfbb0f2",
 "assets/assets/babel-library.png": "d032fcd5961b6cf348e03b26b8ab4b6a",
 "assets/assets/Bees.svg": "ac70d4753cf3ed909867851e277213b2",
+"assets/assets/content/5-cb.jpg": "9e1983492d787ad4be8d17f13c41b44e",
+"assets/assets/content/5-collective.jpg": "6206f3478677707a6e3228a8b078c0a2",
+"assets/assets/content/5-f5.jpg": "ba922b36705cd324c9b8e238739e7d5a",
+"assets/assets/content/5-game.jpg": "9bdeb8d7daf5332d7a905854a2dbd577",
+"assets/assets/content/5-nyu.jpg": "05ec6e048b4e1026fd13787a33b91542",
+"assets/assets/content/5-platforms.jpg": "4914d86a22972e8a21c52df5d4c8e095",
 "assets/assets/github-jn.svg": "5b8d2a98a88c95fdcdb96ad308a92876",
 "assets/assets/hex-b.png": "37b3473ac47964a8c482a34970ad0637",
 "assets/assets/hex-bl.png": "67289ce3d634072ed9dcf17649e27b1d",
@@ -23,8 +29,10 @@ const RESOURCES = {
 "assets/assets/tactile-navigator.png": "17d2b9e00ae7ce64b9d1a3f78b65c2bf",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "71819b5ad28b6cb19f64454390dc22e8",
+"assets/NOTICES": "7c39b9b9a0eaaad96ce9cb75c4d10f70",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.css": "5a8d0222407e388155d7d1395a75d5b9",
+"assets/packages/flutter_inappwebview/assets/t_rex_runner/t-rex.html": "16911fcc170c8af1c5457940bd0bf055",
 "favicon.png": "736a342b25a0348d93c0df57a8a80bc5",
 "icons/Hex-192.png": "9dda096ccdf1462cf05bf7eeab4f685c",
 "icons/Icon-16.png": "736a342b25a0348d93c0df57a8a80bc5",
@@ -34,9 +42,9 @@ const RESOURCES = {
 "icons/Icon-maskable-192.png": "80b0b96d845a5be7a88a73a1a79aa607",
 "icons/Icon-maskable-512.png": "caadeea964b30fe42d90a80a07d528cc",
 "icons/JN-192.png": "c9360ac08b6c33105d1ed38535badfca",
-"index.html": "7a5b3be9eba2d021c1ca64f76526911e",
-"/": "7a5b3be9eba2d021c1ca64f76526911e",
-"main.dart.js": "680c8103d7db572b2acfe57ae0a3373e",
+"index.html": "e989a598995aa07ed65cb9bad1bb891d",
+"/": "e989a598995aa07ed65cb9bad1bb891d",
+"main.dart.js": "fe8bdef71670b615162c57f9de918246",
 "manifest.json": "e1ff7e6b504497f45fe647c617b6db61",
 "version.json": "15592eee1dda78eca7eefd70ac0135a8"
 };
