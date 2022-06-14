@@ -1,4 +1,47 @@
-<svg width="101" height="80" viewBox="0 0 101 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10.8485 38.7268L10.095 40L10.8485 41.2732L31.3485 75.9142L32.0745 77.141H33.5H74.5H75.9255L76.6515 75.9142L97.1515 41.2732L97.905 40L97.1515 38.7268L76.6515 4.08576L75.9255 2.85898H74.5H33.5H32.0745L31.3485 4.08576L10.8485 38.7268Z" stroke="#D9BD59" stroke-width="5"/>
-<path d="M1 55.0516V46.4733H7.73433V55.7731C7.73433 59.4071 9.55157 61.2247 13.1859 61.2247H25.6925C29.3269 61.2247 31.1441 59.4071 31.1441 55.7731V18.093H13.0256V12H37.8785V55.0516C37.8785 63.229 33.7898 67.3177 25.6124 67.3177H13.2661C5.0887 67.3177 1 63.229 1 55.0516V55.0516ZM51.7893 67.3177V12H59.2452L88.3471 56.8955V12H95.0814V67.3177H87.6255L58.5236 22.4222V67.3177H51.7893Z" fill="#59C2D9" stroke="white" stroke-width="2"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="101"
+   height="80"
+   viewBox="0 0 101 80"
+   fill="none"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="JN-logo.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="10.425"
+     inkscape:cx="50.503597"
+     inkscape:cy="39.952038"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     d="M10.8485 38.7268L10.095 40L10.8485 41.2732L31.3485 75.9142L32.0745 77.141H33.5H74.5H75.9255L76.6515 75.9142L97.1515 41.2732L97.905 40L97.1515 38.7268L76.6515 4.08576L75.9255 2.85898H74.5H33.5H32.0745L31.3485 4.08576L10.8485 38.7268Z"
+     stroke="#D9BD59"
+     stroke-width="5"
+     id="path2" />
+  <path
+     d="M1 55.0516V46.4733H7.73433V55.7731C7.73433 59.4071 9.55157 61.2247 13.1859 61.2247H25.6925C29.3269 61.2247 31.1441 59.4071 31.1441 55.7731V18.093H13.0256V12H37.8785V55.0516C37.8785 63.229 33.7898 67.3177 25.6124 67.3177H13.2661C5.0887 67.3177 1 63.229 1 55.0516V55.0516ZM51.7893 67.3177V12H59.2452L88.3471 56.8955V12H95.0814V67.3177H87.6255L58.5236 22.4222V67.3177H51.7893Z"
+     fill="#59C2D9"
+     stroke="white"
+     stroke-width="2"
+     id="path4"
+     style="fill:#1091a7;fill-opacity:1" />
 </svg>
