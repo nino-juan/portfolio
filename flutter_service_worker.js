@@ -56,7 +56,7 @@ const RESOURCES = {
 "assets/assets/hex-gl.png": "fffe86df93978fe52958718966ad7141",
 "assets/assets/JN-logo.png": "5468531d8fce060b65efdc2a1e8c7f9e",
 "assets/assets/JN-logo.svg": "800cf4015fae1fe9c1feb5fa799a2ce8",
-"assets/assets/Juan-Nino-CV.pdf": "8a8597ef7a9aede4d35d547d8f2e7cff",
+"assets/assets/Juan-Nino-CV.pdf": "80851309d91bd516406485f918879fad",
 "assets/assets/lab-vivant-n.png": "f37649185a0ca2cea23c1171e5693eae",
 "assets/assets/lab-vivant.png": "7690a96d64310c530b5bef221f6823c8",
 "assets/assets/linkedin-jn.svg": "3449a0cfff4f4e3efffdb28f71a25dec",
@@ -85,9 +85,9 @@ const RESOURCES = {
 "icons/Icon-maskable-192.png": "9cf44074ded9fb508f8bc5db02d79a9b",
 "icons/Icon-maskable-512.png": "db60d70cd331a9d5cd411f134014e7d8",
 "icons/JN-192.png": "02f0a9bff8f467ffd780d057ba5b613f",
-"index.html": "f5d9d0412051978b48baf1407b231cce",
-"/": "f5d9d0412051978b48baf1407b231cce",
-"main.dart.js": "addaa73db11d19c280652ec8f347e27a",
+"index.html": "e861c9000b1c0272e33a95dfcd21666a",
+"/": "e861c9000b1c0272e33a95dfcd21666a",
+"main.dart.js": "d0175e921839e1f3b531415344a14c42",
 "manifest.json": "e1ff7e6b504497f45fe647c617b6db61",
 "version.json": "15592eee1dda78eca7eefd70ac0135a8"
 };
