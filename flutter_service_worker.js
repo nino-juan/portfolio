@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "61f90bf520e40f06c65cb697df222d92",
+  "assets/AssetManifest.json": "cfa430dee1b93a1badf42c812a970e3e",
 "assets/assets/babel-library-n.png": "327d0f1a6b98cd456f6f75cbf2a54f12",
 "assets/assets/babel-library.png": "1a10303811f429bd4fde88905316099f",
 "assets/assets/Bees.svg": "ac70d4753cf3ed909867851e277213b2",
@@ -51,9 +51,8 @@ const RESOURCES = {
 "assets/assets/content/5-platforms.jpg": "4914d86a22972e8a21c52df5d4c8e095",
 "assets/assets/github-jn.svg": "b3708e187e4c8f20a6c0ab65de4a247b",
 "assets/assets/hex-b.png": "22c8f1332052cc73fd2bcc7117b4bc0a",
-"assets/assets/hex-bl.png": "67289ce3d634072ed9dcf17649e27b1d",
-"assets/assets/hex-g.png": "0b2dcb4dc47cdaf00dd37d0f9f2d8fc6",
-"assets/assets/hex-gl.png": "fffe86df93978fe52958718966ad7141",
+"assets/assets/hex-bl.png": "1fb6cd36e8e6dc4b88373ca74e6d011e",
+"assets/assets/hex-gl.png": "0b2dcb4dc47cdaf00dd37d0f9f2d8fc6",
 "assets/assets/JN-logo.png": "5468531d8fce060b65efdc2a1e8c7f9e",
 "assets/assets/JN-logo.svg": "800cf4015fae1fe9c1feb5fa799a2ce8",
 "assets/assets/Juan-Nino-CV.pdf": "80851309d91bd516406485f918879fad",
@@ -69,7 +68,7 @@ const RESOURCES = {
 "assets/assets/tactile-navigator.png": "3a2d902510bc0efa9efd36c2227dec89",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "1f4b590d0b4af816a95b3f3a74e03e6b",
+"assets/NOTICES": "102aed9e7b90aae7c75a5516f4d8208a",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
@@ -85,9 +84,9 @@ const RESOURCES = {
 "icons/Icon-maskable-192.png": "9cf44074ded9fb508f8bc5db02d79a9b",
 "icons/Icon-maskable-512.png": "db60d70cd331a9d5cd411f134014e7d8",
 "icons/JN-192.png": "02f0a9bff8f467ffd780d057ba5b613f",
-"index.html": "6bd7f68756d025b3f001ae2866cf36e9",
-"/": "6bd7f68756d025b3f001ae2866cf36e9",
-"main.dart.js": "63bbfe12d911c2ab097188705b56eda5",
+"index.html": "9eacf7c2cdc24c3262648213b5ba94fb",
+"/": "9eacf7c2cdc24c3262648213b5ba94fb",
+"main.dart.js": "8b21bb964ec73560e651bd93a7eeb342",
 "manifest.json": "e1ff7e6b504497f45fe647c617b6db61",
 "version.json": "15592eee1dda78eca7eefd70ac0135a8"
 };
