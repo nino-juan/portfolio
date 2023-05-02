@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="101"
+   height="101"
+   viewBox="0 0 101 101"
+   fill="none"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="JN-logo.svg"
+   inkscape:export-filename="..\favicon.png"
+   inkscape:export-xdpi="30.473167"
+   inkscape:export-ydpi="30.473167"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.95"
+     inkscape:cx="26.949153"
+     inkscape:cy="40"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg13" />
+  <g
+     clip-path="url(#clip0_311_10353)"
+     id="g6"
+     transform="translate(0.09499888,10.50001)">
+    <path
+       d="M 10.8485,38.7268 10.095,40 l 0.7535,1.2732 20.5,34.641 0.726,1.2268 h 1.4255 41 1.4255 l 0.726,-1.2268 20.5,-34.641 L 97.905,40 97.1515,38.7268 76.6515,4.08576 75.9255,2.85898 H 74.5 33.5 32.0745 l -0.726,1.22678 z"
+       stroke="#d9bd59"
+       stroke-width="5"
+       id="path2" />
+    <path
+       d="m 1,55.0516 v -8.5783 h 6.73433 v 9.2998 c 0,3.634 1.81724,5.4516 5.45157,5.4516 h 12.5066 c 3.6344,0 5.4516,-1.8176 5.4516,-5.4516 V 18.093 H 13.0256 V 12 h 24.8529 v 43.0516 c 0,8.1774 -4.0887,12.2661 -12.2661,12.2661 H 13.2661 C 5.0887,67.3177 1,63.229 1,55.0516 Z M 51.7893,67.3177 V 12 h 7.4559 L 88.3471,56.8955 V 12 h 6.7343 V 67.3177 H 87.6255 L 58.5236,22.4222 v 44.8955 z"
+       fill="#0f91a7"
+       stroke="#ffffff"
+       stroke-width="2"
+       id="path4" />
+  </g>
+  <defs
+     id="defs11">
+    <clipPath
+       id="clip0_311_10353">
+      <rect
+         width="101"
+         height="80"
+         fill="#ffffff"
+         id="rect8"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+</svg>
