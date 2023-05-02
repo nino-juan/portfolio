@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LabVivant - Juan Nino</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="author" content="Juan Nino" />
+    <meta name="designer" content="Juan Nino" />
+    <meta property="og:title" content="LabVivant - Juan Nino" />
+    <meta
+      property="og:description"
+      content="Welcome to my LabVivant Project."
+    />
+    <!--  UNcomment here and add urls for og properties -->
+    <meta property="og:url" content="https://www.juannino.dev/labvivant.html" />
+    <meta property="og:image" content="https://www.juannino.dev/Icon-192.png" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="description" content="Juan Nino logo." />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <a href="#labvivant" class="skip-navigation">Skip to main content</a>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-center" href="index.html">
+            <img
+              src="img/JN-logo.svg"
+              alt="Logo"
+              width="40rem"
+              class="d-inline-block align-text-middle"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#work">Research</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="
+                  index.html#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- LabVivant content -->
+    <section id="labvivant">
+      <div class="container">
+        <div class="row justify-content-center" id="intro">
+          <div class="col-lg-3 col-md-10">
+            <div>
+              <h1 class="display-6">LabVivant</h1>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-10 align-self-center">
+            <p>
+              The internet, social media, and virtual reality have
+              revolutionized the way we connect with people globally, but they
+              fall short when it comes to immersing oneself in strongly embodied
+              experiences like practicing martial arts. Attempting to engage in
+              such activities through a screen proves to be less effective and
+              less fulfilling. Although motion capture technologies exist, they
+              can be costly, intrusive, and require high-end computing power,
+              rendering them incompatible with mobile devices.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 align-self-center">
+            <h3 class="lead">Objective:</h3>
+            <p>
+              To develop a gesture controller for mobile VR that will enable
+              online participants to engage in live martial-arts events through
+              embodied interactions, including voice and movement.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 align-self-center">
+            <h3 class="lead">Method:</h3>
+            <p>
+              I collaborated with a multidisciplinary team of experts in
+              gamification, arts and technology, AI, virtual communities, 3D
+              art, martial arts, and social sciences, while also working closely
+              with our business partner Le Cercle and nonprofit partner Mitacs
+              Inc. throughout the project.
+            </p>
+            <p>
+              I developed a wearable system that captures user hand movements
+              and voice using a 9 DOF IMU (Inertial Measurement Unit) and
+              microphone.
+            </p>
+            <p>
+              I processed IMU data by applying orientation quaternion to
+              acceleration vector, estimating motion vector relative to Earth's
+              magnetic field, and normalized the values for accurate
+              representation of the same gesture despite user's speed and
+              acceleration.
+            </p>
+            <p>
+              I developed an MFCC (Mel-frequency cepstral coefficients)
+              algorithm that utilizes fast Fourier transform and discrete cosine
+              transform to pre-process Shintaido phonemes.
+            </p>
+            <p>
+              During a motion capture session, I collected, preprocessed, and
+              labeled data for five Shintaido motions and phonemes, which were
+              performed by a Shintaido expert.
+            </p>
+            <p>
+              I trained two ANN models for classification with minimal
+              architectures to enable real-time processing on low-powered mobile
+              devices, although limited to a few gesture categories. The phoneme
+              classification network had 16, 11, and 6 neurons while the motion
+              classification network had 120, 80, 40, 20, and 6 neurons.
+            </p>
+            <p>
+              I developed a C# algorithm to natively load the architecture and
+              weights of TensorFlow-trained neural networks in Unity3D.
+            </p>
+            <p>
+              I built a multiplayer "digital dojo" where users can interact
+              through martial-arts movements and phonemes, and a VR version
+              using Google Cardboard for increased immersion.
+            </p>
+            <p>
+              I authored a peer-reviewed research paper that was published and
+              presented at a conference hosted by the Society for Imaging
+              Science and Technology.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 align-self-center">
+            <h3 class="lead">Tools:</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-4 align-self-end">
+            <div class="card border-0 shadow-none text-center">
+              <div class="card-body">
+                <img
+                  src="img/unity-icon.svg"
+                  alt="Logo of Unity3D"
+                  width="50rem"
+                />
+                <p class="card-title">Unity3D</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 align-self-end">
+            <div class="card border-0 shadow-none text-center">
+              <div class="card-body">
+                <img src="img/c-sharp-icon.svg" alt="C# logo" width="50rem" />
+                <p class="card-title">C#</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 align-self-end">
+            <div class="card border-0 shadow-none text-center">
+              <div class="card-body">
+                <img
+                  src="img/vr-cardboard.svg"
+                  alt="Google Cardboard logo"
+                  width="50rem"
+                />
+                <p class="card-title">Google Cardboard</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 align-self-end">
+            <div class="card border-0 shadow-none text-center">
+              <div class="card-body">
+                <img
+                  src="img/Arduino_Logo.png"
+                  alt="arduino logo"
+                  width="50rem"
+                />
+                <p class="card-title">Arduino</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 align-self-end">
+            <div class="card border-0 shadow-none text-center">
+              <div class="card-body">
+                <img
+                  src="img/hand-wave-icon.svg"
+                  alt="Icon of a hand waving"
+                  width="50rem"
+                />
+                <p class="card-title">Motion capture</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 align-self-end">
+            <div class="card border-0 shadow-none text-center">
+              <div class="card-body">
+                <img
+                  src="img/tensorflow-icon.svg"
+                  alt="Photo of TensorFlow logo"
+                  width="50rem"
+                />
+                <p class="card-title">TensorFlow</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <h3 class="lead">Results:</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 align-self-center">
+            <h4>Developing wearable sensor system</h4>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5 text-center">
+            <figure class="figure">
+              <img
+                src="labvivant/4-werable.jpg"
+                alt="electronic components of the protype of wearable sensor system"
+                width="100%"
+                class="figure-img img-fluid rounded"
+              />
+              <figcaption class="figure-caption text-start">
+                Electronic components of the wearable sensor system prototype.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 text-center">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/iD0q0mcLg_g?controls=0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 text-center">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/zN20iYrHwN8?controls=0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 align-self-center">
+            <h4>Collection of training data</h4>
+          </div>
+          <div class="col-md-5 text-center align-self-center">
+            <figure class="figure">
+              <img
+                src="labvivant/4-mocap.png"
+                alt="Photo of motion capture session with martial arts expert"
+                width="81%"
+                class="figure-img img-fluid rounded"
+              />
+              <figcaption class="figure-caption text-start">
+                Expert in martial arts during motion and phoneme capture
+                session.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-5 text-center align-self-center">
+            <figure class="figure">
+              <img
+                src="labvivant/4-mocapdata.png"
+                alt="Image of captured data visualization"
+                width="100%"
+                class="figure-img img-fluid rounded"
+              />
+              <figcaption class="figure-caption text-start">
+                Graphical visualization of motion capture and audio data for
+                Shintaido gestures and phonemes.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-10 align-self-center">
+            <h4>Gesture and phoneme data after preprocessing</h4>
+          </div>
+          <div class="col-md-5 text-center">
+            <figure class="figure">
+              <img
+                src="labvivant/4-phonemes.png"
+                alt="Shintaido phonemes graphic representation"
+                width="100%"
+                class="figure-img img-fluid rounded"
+              />
+              <figcaption class="figure-caption text-start">
+                Graphical visualization of the first 16 MFCCs of Shintaido
+                phonemes.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-5 text-center">
+            <figure class="figure">
+              <img
+                src="labvivant/4-gesturedata.png"
+                alt="Graphical representation of different gestures"
+                width="80%"
+                class="figure-img img-fluid rounded"
+              />
+              <figcaption class="figure-caption text-start">
+                Graphical visualization of acceleration vectors for Shintaido
+                gestures.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-10 align-self-center">
+            <h4>Research articles</h4>
+            <p>
+              <b>Juan Nino</b>, Jocelyne Kiss, Geoffrey Edwards, Ernesto
+              Morales, Sherezada Ochoa, Bruno Bernier, (2019) "Enhancing Mobile
+              VR Immersion: A Multimodal System of Neural Networks Approach to
+              an IMU Gesture Controller" in Proc. IS&T Int’l. Symp. on
+              Electronic Imaging: The Engineering Reality of Virtual Reality,
+              2019, pp 184-1 - 184-6,
+              <a
+                target="_blank"
+                class="footer-link"
+                href="https://doi.org/10.2352/ISSN.2470-1173.2019.2.ERVR-184"
+                >https://doi.org/10.2352/ISSN.2470-1173.2019.2.ERVR-184</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of LabVivant Contents-->
+
+    <!--Footer-->
+    <section id="footer">
+      <div class="row justify-content-center">
+        <div class="col text-center">
+          The
+          <a
+            class="footer-link"
+            href="https://commons.wikimedia.org/wiki/File:Arduino_Logo.svg"
+            target="_blank"
+            >Arduino Logo</a
+          >
+          is a trademark of
+          <a
+            class="footer-link"
+            href="https://support.arduino.cc/hc/en-us/articles/4679108720796-Arduino-Trademarks"
+            target="_blank"
+            >Arduino</a
+          >.
+        </div>
+      </div>
+      <div class="container text-center d-none d-lg-block">
+        <div class="row justify-content-center">
+          <div class="col-3">
+            <a class="footer-brand" href="index.html">
+              <img src="img/JN-logo.svg" alt="Logo Juan Nino" width="30rem" />
+            </a>
+          </div>
+          <div class="col-1 footer-alignment">
+            <div><a class="footer-link" href="index.html">Home</a></div>
+          </div>
+          <div class="col-1 footer-alignment">
+            <div><a class="footer-link" href="index.html#about">About</a></div>
+          </div>
+          <div class="col-1 footer-alignment">
+            <div>
+              <a class="footer-link" href="index.html#work">Research</a>
+            </div>
+          </div>
+          <div class="col-1 footer-alignment">
+            <div>
+              <a class="footer-link" href="index.html#contact">Contact</a>
+            </div>
+          </div>
+          <div class="col-3 footer-alignment">
+            <div>&copy; 2023 Juan Nino.</div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center d-lg-none">
+        <div class="row">
+          <div class="col">
+            <a class="footer-brand" href="index.html">
+              <img src="img/JN-logo.svg" alt="Logo Juan Nino" width="30rem" />
+            </a>
+          </div>
+          <div class="col">
+            <a class="footer-link" href="index.html">Home</a><br />
+            <a class="footer-link" href="index.html#about">About</a><br />
+            <a class="footer-link" href="index.html#work">Research</a><br />
+            <a class="footer-link" href="index.html#contact"> Contact</a>
+          </div>
+          <div class="col">
+            <div>
+              <p>&copy; 2023 Juan Nino.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of Footer-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

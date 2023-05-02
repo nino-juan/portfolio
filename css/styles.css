@@ -1,0 +1,418 @@
+body {
+  color: var(--grayDark);
+  background-color: #ffffff;
+  font-family: roboto;
+}
+
+.display-6 {
+  font-family: "Oxanium", cursive;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+:root {
+  --primary: #0f91a7;
+  --primaryDark: #005b6a;
+  --primaryLight: #65c8d9;
+  --primaryExtraLight: #eeffff;
+  --secondary: #d9bd59;
+  --secondaryDark: #b28b00;
+  --secondaryLight: #e0cc83;
+  --secondaryExtraLight: #fbf8ee;
+  --accents: #ffffff;
+  --gray: #454545;
+  --grayDark: #343434;
+  --grayLight: #757575;
+}
+
+.skip-navigation {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-navigation:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+
+.bg-body-tertiary {
+  background-color: #ffffff !important;
+}
+
+/* Nav Bar */
+
+.navbar {
+  margin-top: 2rem;
+}
+.nav-link {
+  color: var(--primary);
+  font-family: "Oxanium", cursive;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--primary);
+  font-weight: bold;
+  font-family: "Oxanium", cursive;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--primary);
+  font-weight: bold;
+  font-family: "Oxanium", cursive;
+}
+
+.navbar button.navbar-toggler.collapsed span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(217, 189,89, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar button.navbar-toggler span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(217, 189, 89, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar button.navbar-toggler {
+  color: var(--secondary);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primaryDark);
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: var(--primary);
+}
+
+/* Welcome */
+
+#welcome {
+  background: url(../img/main.svg) no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#welcome p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* About */
+
+#about {
+  background-color: var(--secondaryExtraLight);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#about p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#about2 {
+  background: url(../img/about.svg) no-repeat;
+  background-position: center right;
+  background-size: 15%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Toolkit */
+
+.card {
+  background-color: transparent;
+}
+
+/* Work */
+
+#work {
+  background: url(../img/work-bee.svg) no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#work h1 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+#work h5 {
+  margin-top: 1rem;
+}
+
+#work .card {
+  margin-bottom: 2rem;
+}
+
+/* Contact */
+
+#contact {
+  background: url(../img/connect.svg) repeat;
+  background-size: 5%;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+}
+
+#contact p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#contact img {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+/* Footer */
+
+#footer {
+  background-color: var(--secondaryExtraLight);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--primaryDark);
+}
+
+.footer-brand {
+  color: var(--primaryDark);
+  text-decoration: none;
+}
+.footer-link {
+  color: var(--primaryDark);
+}
+
+.footer-link:hover {
+  color: var(--primaryDark);
+}
+
+.footer-alignment {
+  padding-top: 0.5rem;
+}
+
+/* Projects */
+
+#intro {
+  margin-bottom: 2rem;
+}
+
+/* LibreTactile */
+
+#LibreTactile {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+#LibreTactile h1 {
+  margin-bottom: 2rem;
+}
+
+#LibreTactile h3 {
+  margin-bottom: 2rem;
+}
+
+#LibreTactile p {
+  margin-bottom: 2rem;
+}
+
+#results img {
+  margin-bottom: 4rem;
+}
+
+/* Tomat Navigator */
+
+#tomat {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+#tomatlogo {
+  margin-bottom: 2rem;
+}
+
+#tomat h3 {
+  margin-bottom: 2rem;
+}
+
+#tomat p {
+  margin-bottom: 2rem;
+}
+
+#tomat img {
+  margin-bottom: 2rem;
+}
+
+/* Babel Library */
+
+#BabelLibrary {
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+}
+
+#BabelLibrary h1 {
+  margin-bottom: 2rem;
+}
+
+#BabelLibrary h3 {
+  margin-bottom: 2rem;
+}
+
+#BabelLibrary h4 {
+  margin-bottom: 2rem;
+}
+
+#BabelLibrary p {
+  margin-bottom: 2rem;
+}
+
+#BabelLibrary img {
+  margin-bottom: 2rem;
+}
+
+#BabelLibrary iframe {
+  margin-bottom: 2rem;
+}
+
+/* Opera */
+
+#opera {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+#opera h1 {
+  margin-bottom: 2rem;
+}
+
+#opera h3 {
+  margin-bottom: 2rem;
+}
+
+#opera h4 {
+  margin-bottom: 2rem;
+}
+
+#opera p {
+  margin-bottom: 2rem;
+}
+
+#opera img {
+  margin-bottom: 2rem;
+}
+
+/* LabVivant */
+
+#labvivant {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+#labvivant h1 {
+  margin-bottom: 2rem;
+}
+
+#labvivant h3 {
+  margin-bottom: 2rem;
+}
+
+#labvivant h4 {
+  margin-bottom: 2rem;
+}
+
+#labvivant p {
+  margin-bottom: 2rem;
+}
+
+#labvivant img {
+  margin-bottom: 2rem;
+}
+
+#labvivant iframe {
+  margin-bottom: 2rem;
+}
+
+/* MagnaQuest */
+
+#MagnaQuest {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+#MagnaQuest h1 {
+  margin-bottom: 2rem;
+}
+
+#MagnaQuest h3 {
+  margin-bottom: 2rem;
+}
+
+#MagnaQuest h4 {
+  margin-bottom: 2rem;
+}
+
+#MagnaQuest p {
+  margin-bottom: 2rem;
+}
+
+#MagnaQuest img {
+  margin-bottom: 2rem;
+}
+
+#MagnaQuest iframe {
+  margin-bottom: 2rem;
+}
+
+/* Error Page */
+
+.error-page p {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+/********** Medium devices and up **********/
+@media (min-width: 768px) {
+}
+
+/********** Small devices **********/
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+/********** Extra small devices **********/
+@media (max-width: 575px) {
+  #about2 {
+    background: url(../img/about2.svg) no-repeat;
+    background-position: top right;
+    background-size: 30%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #work {
+    background: url(../img/work-bee.svg) no-repeat;
+    background-position: top left;
+    background-size: 200%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/********** Super extra small devices **********/
+@media (max-width: 450px) {
+}
